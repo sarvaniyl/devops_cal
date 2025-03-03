@@ -32,6 +32,14 @@ python -m app.main
 ```bash
 docker-compose up -d
 ```
+2.enter into container
+```bash
+docker exec -it calculator_app bash
+```
+3.can use same run command
+```bash
+python -m app.main
+```
 
 
 
